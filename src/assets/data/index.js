@@ -48,7 +48,8 @@ import sweeepIcon from '../img/projects/sweeep-icon.png'
 import btcGif from '../img/projects/btc.png'
 import btcIcon from '../img/projects/btc-icon.png'
 
-
+import ratingsvillGif from '../img/projects/ratingsville.gif'
+import ratingsvillIcon from '../img/projects/ratingsville-icon.png'
 
 let colorYellow = '#F2C94C'
 let colorBlue = '#56CCF2'
@@ -234,6 +235,13 @@ let data = {
       gif: mangaGif,
       icon: mangaIcon,
       tags: ['VueJS','Webpack','Npm','Firebase','Javascript','Juery UI','JSON']
+    },
+    {
+      name: 'Ratingsville',
+      description: 'One of the core developer of this system. A web site application wherein parents can check all the children daycare facilities around united states',
+      gif: ratingsvillGif,
+      icon: ratingsvillIcon,
+      tags: ['MongoDB','Angular 1','NodeJS','Express JS']
     },
     {
       name: 'e-Locator',
