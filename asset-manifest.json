@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/kimsean.github.io/static/css/main.b4900c12.chunk.css",
-    "main.js": "/kimsean.github.io/static/js/main.22ecdf18.chunk.js",
-    "main.js.map": "/kimsean.github.io/static/js/main.22ecdf18.chunk.js.map",
+    "main.js": "/kimsean.github.io/static/js/main.78f729eb.chunk.js",
+    "main.js.map": "/kimsean.github.io/static/js/main.78f729eb.chunk.js.map",
     "runtime-main.js": "/kimsean.github.io/static/js/runtime-main.5a4cc75d.js",
     "runtime-main.js.map": "/kimsean.github.io/static/js/runtime-main.5a4cc75d.js.map",
     "static/css/2.64a99b10.chunk.css": "/kimsean.github.io/static/css/2.64a99b10.chunk.css",
-    "static/js/2.952fa34e.chunk.js": "/kimsean.github.io/static/js/2.952fa34e.chunk.js",
-    "static/js/2.952fa34e.chunk.js.map": "/kimsean.github.io/static/js/2.952fa34e.chunk.js.map",
+    "static/js/2.691b3cfa.chunk.js": "/kimsean.github.io/static/js/2.691b3cfa.chunk.js",
+    "static/js/2.691b3cfa.chunk.js.map": "/kimsean.github.io/static/js/2.691b3cfa.chunk.js.map",
     "index.html": "/kimsean.github.io/index.html",
-    "precache-manifest.3ddd7a64d278a87fb88bdffad549569a.js": "/kimsean.github.io/precache-manifest.3ddd7a64d278a87fb88bdffad549569a.js",
+    "precache-manifest.932e9ced7f6d8d699236427f7f03e508.js": "/kimsean.github.io/precache-manifest.932e9ced7f6d8d699236427f7f03e508.js",
     "service-worker.js": "/kimsean.github.io/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/kimsean.github.io/static/css/2.64a99b10.chunk.css.map",
     "static/css/main.b4900c12.chunk.css.map": "/kimsean.github.io/static/css/main.b4900c12.chunk.css.map",
-    "static/js/2.952fa34e.chunk.js.LICENSE": "/kimsean.github.io/static/js/2.952fa34e.chunk.js.LICENSE",
+    "static/js/2.691b3cfa.chunk.js.LICENSE": "/kimsean.github.io/static/js/2.691b3cfa.chunk.js.LICENSE",
     "static/media/angular-hover.png": "/kimsean.github.io/static/media/angular-hover.8de67442.png",
     "static/media/angular.png": "/kimsean.github.io/static/media/angular.94c48bb0.png",
     "static/media/btc-icon.png": "/kimsean.github.io/static/media/btc-icon.f3877fca.png",
@@ -49,6 +49,8 @@
     "static/media/php.png": "/kimsean.github.io/static/media/php.3ae9b233.png",
     "static/media/python-hover.png": "/kimsean.github.io/static/media/python-hover.b156150b.png",
     "static/media/python.png": "/kimsean.github.io/static/media/python.6cd24aa2.png",
+    "static/media/ratingsville-icon.png": "/kimsean.github.io/static/media/ratingsville-icon.d6f38fe4.png",
+    "static/media/ratingsville.gif": "/kimsean.github.io/static/media/ratingsville.62b45f0e.gif",
     "static/media/react-hover.png": "/kimsean.github.io/static/media/react-hover.32449851.png",
     "static/media/react.png": "/kimsean.github.io/static/media/react.c6852f3f.png",
     "static/media/restapi-hover.png": "/kimsean.github.io/static/media/restapi-hover.d0296520.png",
@@ -64,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.5a4cc75d.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.952fa34e.chunk.js",
+    "static/js/2.691b3cfa.chunk.js",
     "static/css/main.b4900c12.chunk.css",
-    "static/js/main.22ecdf18.chunk.js"
+    "static/js/main.78f729eb.chunk.js"
   ]
 }
