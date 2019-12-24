@@ -231,59 +231,113 @@ let data = {
   projects: [
     {
       name: 'Manga Translation System',
-      description: 'A web app system for easier manga translation. This also provides real time data using firebase',
+      description: 'A simple web application system for manga translation. The system provides easier user interface in the translation process. From the translators to checkers then to proof readers. It enhances the speed and the quality of the project.',
       gif: mangaGif,
       icon: mangaIcon,
-      tags: ['VueJS','Webpack','Npm','Firebase','Javascript','Juery UI','JSON']
+      tags: ['VueJS','Webpack','Npm','Firebase','Javascript','Juery UI','JSON'],
+      roles: [
+        'Coded the entire dashboard admin with HTML/CSS/SCSS',
+        'Integrated real-time data using firebase',
+        'jQueryUI for the draggable contents',
+        'Applied a cropper library',
+        'Developed the entire system'
+      ]
     },
     {
       name: 'Ratingsville',
-      description: 'One of the core developer of this system. A web site application wherein parents can check all the children daycare facilities around united states',
+      description: 'A web site application wherein parents can check all the children daycare facilities around united states. I am one of the core developer of this system.',
       gif: ratingsvillGif,
       icon: ratingsvillIcon,
-      tags: ['MongoDB','Angular 1','NodeJS','Express JS']
+      tags: ['MongoDB','Angular 1','NodeJS','Express JS'],
+      roles: [
+        'Created backend APIs',
+        'Created controllers for RESTful integration',
+        'Coded components on the admin dashboard',
+        'Created a function to export data to excel'
+      ]
     },
     {
       name: 'e-Locator',
-      description: 'An emergency app',
+      description: 'A website system and mobile application for 911 emergency responders. This system features a real time data of the responders and the callers.',
       gif: emergencyGif,
       icon: emergencyIcon,
-      tags: ['AngularJS 1','Ionic','Firebase','Npm','Web System']
+      tags: ['AngularJS 1','Ionic','Firebase','Npm','Web System'],
+      roles: [
+        'Created a website system using Angular 1',
+        'Developed a mobile application with Ionic 1',
+        'Applied cordova functions to access mobile native functionalities',
+        'Developed a function to use camera to take a picture and upload it directly to the cloud server',
+        'Added geolocation and synced it to the real time database',
+        'System uses firebase as the database'
+      ]
     },
     {
       name: 'GoMati',
-      description: 'A reservation system for hotels and beaches',
+      description: 'A website application system that provides real time data reservation on hotels and beaches in the area of Mati. It uses geolocation to locate the nearest hotel and beached.',
       gif: gomatiGif,
       icon: gomatiIcon,
-      tags: ['Ionic','AngularJS 1','Firebase','Npm','Web System','REST Api','Real Time','Mobile','PHP']
+      tags: ['Ionic','AngularJS 1','Firebase','Npm','Web System','REST Api','Real Time','Mobile','PHP'],
+      roles: [
+        'Developed dashboard using an admin template',
+        'Created PHP Api end points',
+        'Mobile application using Ionic 1',
+        'Added geolocation to mobile app',
+        'System uses firebase and mySQL as the database'
+      ]
     },
     {
-      name: 'Cravee',
-      description: 'Find restaurants by category in Davao City',
+      name: 'Craveee',
+      description: 'A simple web application to find restaurants in Davao City by food category.',
       gif: craveeGif,
       icon: craveeIcon,
-      tags: ['ReactJS','Node','JSON','Google Maps']
+      tags: ['ReactJS','Node','JSON','Google Maps'],
+      roles: [
+        'Developed the application',
+        'Used ReactJS as the main framework for the front end',
+        'created JSON to get the data and render it to the DOM',
+        'Designed and applied the user interface'
+      ]
     },
     {
       name: 'Jam Davao',
-      description: 'Band & Gigs directory for local events.',
+      description: 'Band & Gigs directory for local events located in davao city.',
       gif: jamdavaoGif,
       icon: jamdavaoIcon,
-      tags: ['Php','Bootstrap','REST Api','Mysql', 'Google Maps', 'Web System']
+      tags: ['Php','Bootstrap','REST Api','Mysql', 'Google Maps', 'Web System'],
+      roles: [
+        'Built the system with native php',
+        'Integrated google maps',
+        'Developed the backend queries'
+      ]
     },
     {
       name: 'Sweeep by AML & Pistacia',
-      description: 'I am one of the developers in this system. It is an automation for invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (AML) Companies',
+      description: 'I am one of the developers in this system. It is an automation for invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
       gif: sweeepGif,
       icon: sweeepIcon,
-      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System']
+      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
+      roles: [
+        'Started the admin dashboard using vuetify components',
+        'Created front end user functionalities',
+        'Developed some of the backend apis',
+        'Used vue in the front end',
+        'created python api for exporting data into csv or excel',
+        'vuex to manipulate states in the entire project',
+        'added cookies and localstorage for caching and session'
+      ]
     },
     {
       name: 'BTC by Pistacia',
       description: 'One of the developer in this system. A web system for a company in Malaysia',
       gif: btcGif,
       icon: btcIcon,
-      tags: ['Python','Django REST','REST Api','VueJS', 'Webpack', 'Web System']
+      tags: ['Python','Django REST','REST Api','VueJS', 'Webpack', 'Web System'],
+      roles: [
+        'Coded admin components functionalities',
+        'Developed backend APIs',
+        'used vue in the front end',
+        'created a complicated multi components based on the design',
+      ]
     }
   ]
 }

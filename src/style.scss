@@ -23,6 +23,14 @@ body {
     padding-left:10px !important;
   }
 }
+.ks-logo {
+  img {
+    position: absolute;
+    width:80px;
+    top: 0;
+    right: 0;
+  }
+}
 .resized-container {
   padding-top: 20px;
   padding-left: 250px;
@@ -165,6 +173,7 @@ h6{
 
 .work-history-container {
   // overflow-x: scroll;
+  width: 100%;
   margin-top: 20px;
   ul {
     padding: 0px;
@@ -174,8 +183,10 @@ h6{
       background: #56CCF2;
       margin-right: 3px;
       height: 10px;
-      position: relative;
+      
       width: 100px;
+
+      position: relative;
       &:hover {
         cursor: pointer;
         .company-container {
@@ -292,6 +303,16 @@ h6{
   }
   .project-description {
     margin-bottom: 2px;
+    text-align: justify
+  }
+  .project-roles {
+    ul {
+      padding-left: 20px;
+      margin-bottom: 5px;
+      li {
+        font-size: 0.7rem;
+      }
+    }
   }
   .view-project {
     border: 1px solid #56CCF2;
@@ -301,6 +322,10 @@ h6{
     transition: 0.5s;
     &:hover {
       opacity: 0.5;
+    }
+    img {
+      width: 15px;
+      height: 15px;
     }
   }
   .project-item-continer {

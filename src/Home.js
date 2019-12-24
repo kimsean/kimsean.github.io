@@ -124,15 +124,21 @@ export default class Home extends React.Component {
               <h1>KIM SEAN PUSOD</h1>
               <h6>SOFTWARE ENGINEER</h6>
               <div className="summary-paragraph">
-                <p>I am a software developer with 4 years experience in 
-                  building modern website applications. I can handle multiple 
-                  tasks on a daily basis competently. I am a person who is 
-                  hungry for knowledge, researching new technologies always 
-                  get updated on the current trends of software development.
-                  </p>
-                <p>I am a flexible person when it comes to programming, 
-                  because I believe that every language has almost the same 
-                  logic but only differ in syntax.</p>
+                <p>
+                  Innovative tech mind with 5 years of experience on developing modern applications. Capable of utilizing different
+                  technologies to incorporate in the project. An ethical team member who has experience with different development
+                  methodologies. Extensive experience in front end development, but can also do back end development. 
+                </p>
+                <p>
+                  A creative developer, dedicated to building and optimizing websites for a better user experience. Love to work with 
+                  systems projects that involved in complicated algorithms. Likes to create useful projects and share it to developers community.
+                  quick-thinker to provide solutions.
+                </p>
+
+                <p>
+                  Love to explore and learn new technologies from time to time to always be updated on the current trends in the software/web development.
+                </p>
+                
               </div>
             </div>
           </div>
@@ -198,15 +204,26 @@ export default class Home extends React.Component {
                 <div className="media project-row" key={index}>
                   <img src={val.icon} className="mr-3 proj-main-logo" alt="..."/>
                   <div className="media-body">
-                      <label>{val.name}</label>
+                      <label><b>{val.name}</b></label>
                       <p className="project-description">
                       {val.description}
                       </p>
+                      <div className="project-roles">
+                        <ul>
+                          {
+                            val.roles.map((y,index) => {
+                              return (
+                                <li key={index}>{y}</li>
+                              )
+                            })
+                          }
+                        </ul>
+                      </div>
                       <div className="project-item-continer">
                         <div className="project-preview">
                         <img src={val.gif} alt=""/>
                         </div>
-                        <button className="view-project">Preview</button>
+                        <button className="view-project"><img src={img.eyeIcon} alt=""/> Preview</button>
                       </div>
                     <ul className="project-tag-list">
                       {
