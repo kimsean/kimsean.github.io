@@ -67,7 +67,7 @@ export default class Home extends React.Component {
   }
   renderSkill (skill_name,value,icon,iconhover,index,color) {
     return (
-      <div className="col-lg-4 col-sm-4 col-12 mt=3 skill-list" key={skill_name}>
+      <div className="col-lg-4 col-sm-6 col-md-6 col-12 mt-1 skill-list" key={skill_name}>
         <div id={`sk-${index}`} className="row skill-name">{skill_name}</div>
         <div className="row skill-points-icon">
           <div className="col-1 pl-0 icon-container">
@@ -102,6 +102,13 @@ export default class Home extends React.Component {
       </div>
     )
   }
+  renderUrlSite (url) {
+    return (
+      <div>
+        <a className="url-site" href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+      </div>
+    )
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -116,7 +123,7 @@ export default class Home extends React.Component {
                 <ul>
                   <li><img src={img.mapMarker} alt=""/>Philippines</li>
                   <li><img src={img.emailIcon} alt=""/>dev.kimpusod@gmail.com</li>
-                  <li><img src={img.globeIcon} alt=""/><a href="https://kimsean.github.io/">kimsean.github.io</a></li>
+                  <li><img src={img.globeIcon} alt=""/><a href="https://kimsean.github.io/">https://kimsean.github.io/</a></li>
                 </ul>
               </div>
             </div>
@@ -165,6 +172,7 @@ export default class Home extends React.Component {
                     <li key={index}>
                       <div className="work-arrow-left"></div>
                       <div className="work-arrow-right"></div>
+                      <div className="job-year text-center">{data.year}</div>
                       <div className="company-container">
                         <div className="company-name">{data.name}</div>
                         <div className="job-description">{data.jobDescription}</div>
@@ -197,7 +205,12 @@ export default class Home extends React.Component {
                 <div className="media project-row" key={index}>
                   <img src={val.icon} className="mr-3 proj-main-logo" alt="..."/>
                   <div className="media-body">
-                      <label><b>{val.name}</b></label>
+                      <label><b>{val.name}</b>
+                        <span className="project-type">{val.project_type}</span>
+                        {
+                          this.renderUrlSite(val.site_url)
+                        }
+                      </label>
                       <p className="project-description">
                       {val.description}
                       </p>

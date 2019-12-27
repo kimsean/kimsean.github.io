@@ -64,6 +64,7 @@ let data = {
       name: 'WISE CO.',
       jobDescription: 'FRONT END DEVELOPER',
       time: 'Full Time',
+      year: '2015-2016',
       jobPoints: [
         {
           description: 'Designed a restaurant start up mobile application.'
@@ -83,6 +84,7 @@ let data = {
       name: 'AUXILIUS LIMITED',
       jobDescription: 'JAVASCRIPT DEVELOPER',
       time: 'Part Time',
+      year: '2016-2017',
       jobPoints: [
         {
           description: 'Developed an all things child care related web application.'
@@ -96,6 +98,7 @@ let data = {
       name: 'FREELANCE DEVELOPER',
       jobDescription: 'FULL STACK DEVELOPER',
       time: 'Freelance',
+      year: '2017-2017',
       jobPoints: [
         {
           description: 'Experience in real time mobile application using firebase & Ionic'
@@ -112,6 +115,7 @@ let data = {
       name: 'PISTACIA INC.',
       jobDescription: 'SOFTWARE ENGINEER',
       time: 'Full Time',
+      year: '2018-Current',
       jobPoints: [
         {
           description: 'Experienced two git repository for a single project'
@@ -230,11 +234,45 @@ let data = {
   ],
   projects: [
     {
+      name: 'Sweeep by Pistacia & AML',
+      description: 'One of the developers in this system. It is an automation of japanese invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
+      gif: sweeepGif,
+      icon: sweeepIcon,
+      project_type: 'Client',
+      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
+      site_url: 'https://sweeep.ai/',
+      roles: [
+        'Started the admin dashboard using vuetify components',
+        'Created front end user functionalities',
+        'Developed some of the backend apis',
+        'Used vue in the front end',
+        'created python api for exporting data into csv or excel',
+        'vuex to manipulate states in the entire project',
+        'added cookies and localstorage for caching and session'
+      ]
+    },
+    {
+      name: 'BTC by Pistacia',
+      description: 'BTC or Bona Trust Corporation, one of the core developers in this project. A web system for setting up a business in Malaysia',
+      gif: btcGif,
+      icon: btcIcon,
+      project_type: 'Client',
+      tags: ['Python','Django REST','REST Api','VueJS', 'Webpack', 'Web System'],
+      roles: [
+        'Coded admin components functionalities',
+        'Developed backend APIs',
+        'used vue in the front end',
+        'created a complicated multi components based on the design',
+        'added dynamic data print function'
+      ]
+    },
+    {
       name: 'Manga Translation System',
       description: 'A simple web application system for manga translation. The system provides easier user interface in the translation process. From the translators to checkers then to proof readers. It enhances the speed and the quality of the project.',
       gif: mangaGif,
       icon: mangaIcon,
       tags: ['VueJS','Webpack','Npm','Firebase','Javascript','Juery UI','JSON'],
+      project_type: 'Personal',
       roles: [
         'Coded the entire dashboard admin with HTML/CSS/SCSS',
         'Integrated real-time data using firebase',
@@ -248,6 +286,7 @@ let data = {
       description: 'A web site application wherein parents can check all the children daycare facilities around united states. I am one of the core developer of this system.',
       gif: ratingsvillGif,
       icon: ratingsvillIcon,
+      project_type: 'Client',
       tags: ['MongoDB','Angular 1','NodeJS','Express JS'],
       roles: [
         'Created backend APIs',
@@ -261,6 +300,7 @@ let data = {
       description: 'A website system and mobile application for 911 emergency responders. This system features a real time data of the responders and the callers.',
       gif: emergencyGif,
       icon: emergencyIcon,
+      project_type: 'Client',
       tags: ['AngularJS 1','Ionic','Firebase','Npm','Web System'],
       roles: [
         'Created a website system using Angular 1',
@@ -276,6 +316,7 @@ let data = {
       description: 'A website application system that provides real time data reservation on hotels and beaches in the area of Mati. It uses geolocation to locate the nearest hotel and beached.',
       gif: gomatiGif,
       icon: gomatiIcon,
+      project_type: 'Client',
       tags: ['Ionic','AngularJS 1','Firebase','Npm','Web System','REST Api','Real Time','Mobile','PHP'],
       roles: [
         'Developed dashboard using an admin template',
@@ -290,6 +331,7 @@ let data = {
       description: 'A simple web application to find restaurants in Davao City by food category.',
       gif: craveeGif,
       icon: craveeIcon,
+      project_type: 'Personal',
       tags: ['ReactJS','Node','JSON','Google Maps'],
       roles: [
         'Developed the application',
@@ -303,40 +345,12 @@ let data = {
       description: 'Band & Gigs directory for local events located in davao city.',
       gif: jamdavaoGif,
       icon: jamdavaoIcon,
+      project_type: 'Client',
       tags: ['Php','Bootstrap','REST Api','Mysql', 'Google Maps', 'Web System'],
       roles: [
         'Built the system with native php',
         'Integrated google maps',
         'Developed the backend queries'
-      ]
-    },
-    {
-      name: 'Sweeep by AML & Pistacia',
-      description: 'I am one of the developers in this system. It is an automation for invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
-      gif: sweeepGif,
-      icon: sweeepIcon,
-      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
-      roles: [
-        'Started the admin dashboard using vuetify components',
-        'Created front end user functionalities',
-        'Developed some of the backend apis',
-        'Used vue in the front end',
-        'created python api for exporting data into csv or excel',
-        'vuex to manipulate states in the entire project',
-        'added cookies and localstorage for caching and session'
-      ]
-    },
-    {
-      name: 'BTC by Pistacia',
-      description: 'One of the developer in this system. A web system for a company in Malaysia',
-      gif: btcGif,
-      icon: btcIcon,
-      tags: ['Python','Django REST','REST Api','VueJS', 'Webpack', 'Web System'],
-      roles: [
-        'Coded admin components functionalities',
-        'Developed backend APIs',
-        'used vue in the front end',
-        'created a complicated multi components based on the design',
       ]
     }
   ]
