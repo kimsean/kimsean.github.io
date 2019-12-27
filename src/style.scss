@@ -1,6 +1,6 @@
 body {
   font-size: 0.8rem;
-  // zoom: 90%;
+  zoom: 110%;
   background: #fdfdfd;
 }
 @media (max-width: 991px) {
@@ -29,6 +29,27 @@ body {
     width:80px;
     top: 0;
     right: 0;
+  }
+}
+@media (max-width: 360px) {
+  body {
+    zoom: 120%
+  }
+  .resized-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .skill-list {
+    margin-left: 20px;
+  }
+  .circle {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .summary-container {
+    h1 {
+      font-size: 2rem;
+    }
   }
 }
 .resized-container {
