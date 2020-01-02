@@ -132,13 +132,17 @@ export default class Home extends React.Component {
               <h6>SOFTWARE ENGINEER</h6>
               <div className="summary-paragraph">
                 <p>
-                Innovative tech mind with five years of experience in developing modern applications. I am fully competent in software development methodologies and have extensive experience in front end development, with proficiency in back end development.
+                Innovative tech mind with five years of experience in developing modern applications. 
                 </p>
                 <p>
-                I am dedicated to building and optimizing websites for better user experience, in my spare time I enjoy creating useful projects to share with the developers' community. 
-                I am always learning and trying to become a better problem-solver who can provide the best solutions for any given task.
+                A fully competent software developer with extensive experience in front end development methodologies as well as back end development proficiency.
                 </p>
-                
+                <p>
+                In my spare time, I enjoy creating useful projects to share with the developer community, dedicated to building and optimizing websites for better user experience.
+                </p>
+                <p>
+                Constantly learning to become a better problem-solver who can provide the best solutions for any given task.
+                </p>
               </div>
             </div>
           </div>
