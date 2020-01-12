@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/kimsean.github.io/static/css/main.f1d1da56.chunk.css",
-    "main.js": "/kimsean.github.io/static/js/main.d8a0cf64.chunk.js",
-    "main.js.map": "/kimsean.github.io/static/js/main.d8a0cf64.chunk.js.map",
+    "main.js": "/kimsean.github.io/static/js/main.44e21acc.chunk.js",
+    "main.js.map": "/kimsean.github.io/static/js/main.44e21acc.chunk.js.map",
     "runtime-main.js": "/kimsean.github.io/static/js/runtime-main.5a4cc75d.js",
     "runtime-main.js.map": "/kimsean.github.io/static/js/runtime-main.5a4cc75d.js.map",
     "static/css/2.64a99b10.chunk.css": "/kimsean.github.io/static/css/2.64a99b10.chunk.css",
-    "static/js/2.d23f6a89.chunk.js": "/kimsean.github.io/static/js/2.d23f6a89.chunk.js",
-    "static/js/2.d23f6a89.chunk.js.map": "/kimsean.github.io/static/js/2.d23f6a89.chunk.js.map",
+    "static/js/2.13be4336.chunk.js": "/kimsean.github.io/static/js/2.13be4336.chunk.js",
+    "static/js/2.13be4336.chunk.js.map": "/kimsean.github.io/static/js/2.13be4336.chunk.js.map",
     "index.html": "/kimsean.github.io/index.html",
-    "precache-manifest.7264c12cdcf1b56ee6f98db975baba1d.js": "/kimsean.github.io/precache-manifest.7264c12cdcf1b56ee6f98db975baba1d.js",
+    "precache-manifest.a889f153e7f6a86178022c2ddaba2fc3.js": "/kimsean.github.io/precache-manifest.a889f153e7f6a86178022c2ddaba2fc3.js",
     "service-worker.js": "/kimsean.github.io/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/kimsean.github.io/static/css/2.64a99b10.chunk.css.map",
     "static/css/main.f1d1da56.chunk.css.map": "/kimsean.github.io/static/css/main.f1d1da56.chunk.css.map",
-    "static/js/2.d23f6a89.chunk.js.LICENSE": "/kimsean.github.io/static/js/2.d23f6a89.chunk.js.LICENSE",
+    "static/js/2.13be4336.chunk.js.LICENSE": "/kimsean.github.io/static/js/2.13be4336.chunk.js.LICENSE",
     "static/media/angular-hover.png": "/kimsean.github.io/static/media/angular-hover.8de67442.png",
     "static/media/angular.png": "/kimsean.github.io/static/media/angular.94c48bb0.png",
     "static/media/btc-icon.png": "/kimsean.github.io/static/media/btc-icon.f3877fca.png",
     "static/media/btc.png": "/kimsean.github.io/static/media/btc.e034cff2.png",
+    "static/media/code.svg": "/kimsean.github.io/static/media/code.e8e8f759.svg",
     "static/media/cravee-icon.png": "/kimsean.github.io/static/media/cravee-icon.14f43e89.png",
     "static/media/cravee.gif": "/kimsean.github.io/static/media/cravee.dcf0aa3b.gif",
     "static/media/django-hover.png": "/kimsean.github.io/static/media/django-hover.9cf7139d.png",
@@ -59,16 +60,18 @@
     "static/media/self.png": "/kimsean.github.io/static/media/self.c06b0443.png",
     "static/media/sweeep-icon.png": "/kimsean.github.io/static/media/sweeep-icon.f0d20250.png",
     "static/media/sweeepGif.png": "/kimsean.github.io/static/media/sweeepGif.6738cf3a.png",
+    "static/media/twitter.svg": "/kimsean.github.io/static/media/twitter.6620c8ae.svg",
     "static/media/vue-hover.png": "/kimsean.github.io/static/media/vue-hover.b4898c24.png",
     "static/media/vue.png": "/kimsean.github.io/static/media/vue.c52c9ffe.png",
     "static/media/wordpress-hover.png": "/kimsean.github.io/static/media/wordpress-hover.43180a16.png",
-    "static/media/wordpress.png": "/kimsean.github.io/static/media/wordpress.01924432.png"
+    "static/media/wordpress.png": "/kimsean.github.io/static/media/wordpress.01924432.png",
+    "static/media/youtube.svg": "/kimsean.github.io/static/media/youtube.c80ca203.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a4cc75d.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.d23f6a89.chunk.js",
+    "static/js/2.13be4336.chunk.js",
     "static/css/main.f1d1da56.chunk.css",
-    "static/js/main.d8a0cf64.chunk.js"
+    "static/js/main.44e21acc.chunk.js"
   ]
 }
