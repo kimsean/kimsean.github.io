@@ -3,7 +3,21 @@ body {
   zoom: 110%;
   background: #fdfdfd;
 }
+@media (max-width: 1209px) {
+  .resized-container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
 @media (max-width: 991px) {
+  .level-name {
+    // display: block !important;
+    right: 0px;
+    left: 0px;
+    margin-left: -0px !important;
+    margin: auto;
+    text-align: center;
+  }
   .resized-container {
     padding-top: 20px;
     padding-left: 50px !important;
@@ -11,10 +25,14 @@ body {
     margin-bottom: 50px;
   }
   .skills-circles {
-    align-items: flex-start !important;
+    align-items: center !important;
     justify-content: flex-start !important;
+    padding-right:0px !important;
     .circle {
-      margin-right: 5px;
+      position: relative;
+      margin-right: 5px ;
+      width: 20% !important;
+      // border:2px solid red !important;
     }
   }
 }
@@ -31,6 +49,16 @@ body {
     right: 0;
   }
 }
+@media (max-width: 575px) {
+  .self-img-container {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    img {
+      position: absolute;
+    }
+  }
+}
 @media (max-width: 360px) {
   body {
     zoom: 120%
@@ -39,10 +67,11 @@ body {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .skill-list {
-    margin-left: 20px;
+  .skills-circles {
+    padding-left: 0px !important;
   }
   .circle {
+    // border: 1px solid red !important;
     width: 20px !important;
     height: 20px !important;
   }
@@ -61,8 +90,12 @@ body {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .skill-list {
-    margin-left: 15px;
+  .icon-container {
+    margin-right: 5px;
+  }
+  .skill-row-container {
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .arrow-top {
     margin-top: -8px !important;
@@ -79,8 +112,8 @@ body {
 }
 .resized-container {
   padding-top: 20px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 50px;
 }
 
@@ -160,10 +193,9 @@ h6{
     }
   }
   .circle {
-    width: 15px;
+    width: 25px;
     height: 15px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
     opacity: 0.8;
     &:hover {
       opacity: 1;
@@ -276,7 +308,7 @@ h6{
           border-right: 15px solid transparent;
           border-bottom: 8px solid #555;
           margin-left: 40px;
-          margin-top: -8px;
+          margin-top: -8.5px;
           top:0;
         }
         .arrow-top-2 {
