@@ -123,7 +123,9 @@ export default class Home extends React.Component {
                 <ul>
                   <li><img src={img.mapMarker} alt=""/>Philippines</li>
                   <li><img src={img.emailIcon} alt=""/>dev.kimpusod@gmail.com</li>
-                  <li><img src={img.globeIcon} alt=""/><a href="https://kimsean.github.io/">https://kimsean.github.io/</a></li>
+                  <li><img src={img.twitterIcon} alt=""/><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/thedevkim">Twitter</a></li>
+                  <li><img src={img.codeIcon} alt=""/><a target="_blank" rel="noopener noreferrer" href="https://dev.to/kimsean">Dev Community</a></li>
+                  <li><img src={img.youtubeIcon} alt=""/><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC719AVU2yPFXW6ALr9ZPhuA">Youtube</a></li>
                 </ul>
               </div>
             </div>
