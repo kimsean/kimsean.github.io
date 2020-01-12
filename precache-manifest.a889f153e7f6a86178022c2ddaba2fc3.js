@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50f8828dd97be40b3e62efeb56d72f7e",
+    "revision": "bcf03b5b43cc67e99a3425f6d0189ab3",
     "url": "/kimsean.github.io/index.html"
   },
   {
-    "revision": "1fc8d803da640825d6fd",
+    "revision": "08bbc32aabab0eccdc8f",
     "url": "/kimsean.github.io/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "71295c7b70f4a3f761b1",
+    "revision": "faae29b7e41ec1a80975",
     "url": "/kimsean.github.io/static/css/main.f1d1da56.chunk.css"
   },
   {
-    "revision": "1fc8d803da640825d6fd",
-    "url": "/kimsean.github.io/static/js/2.d23f6a89.chunk.js"
+    "revision": "08bbc32aabab0eccdc8f",
+    "url": "/kimsean.github.io/static/js/2.13be4336.chunk.js"
   },
   {
     "revision": "fc9dba852eaddf531193be703e8b0310",
-    "url": "/kimsean.github.io/static/js/2.d23f6a89.chunk.js.LICENSE"
+    "url": "/kimsean.github.io/static/js/2.13be4336.chunk.js.LICENSE"
   },
   {
-    "revision": "71295c7b70f4a3f761b1",
-    "url": "/kimsean.github.io/static/js/main.d8a0cf64.chunk.js"
+    "revision": "faae29b7e41ec1a80975",
+    "url": "/kimsean.github.io/static/js/main.44e21acc.chunk.js"
   },
   {
     "revision": "bfbd7e9fccdd0b4b3ba2",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e034cff2bdc3c471f3902b5baeb7adbb",
     "url": "/kimsean.github.io/static/media/btc.e034cff2.png"
+  },
+  {
+    "revision": "e8e8f759ef0ad9a3fd65a2a7cb460431",
+    "url": "/kimsean.github.io/static/media/code.e8e8f759.svg"
   },
   {
     "revision": "14f43e89c605c27de320154c7469b221",
@@ -208,6 +212,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kimsean.github.io/static/media/sweeepGif.6738cf3a.png"
   },
   {
+    "revision": "6620c8ae2cac90067a9aa78339bb808d",
+    "url": "/kimsean.github.io/static/media/twitter.6620c8ae.svg"
+  },
+  {
     "revision": "b4898c24f1df5a676bc570aab02966d5",
     "url": "/kimsean.github.io/static/media/vue-hover.b4898c24.png"
   },
@@ -222,5 +230,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0192443202c6e6a8c35537ba7516700c",
     "url": "/kimsean.github.io/static/media/wordpress.01924432.png"
+  },
+  {
+    "revision": "c80ca203c0f773a8502d85ae60f347ce",
+    "url": "/kimsean.github.io/static/media/youtube.c80ca203.svg"
   }
 ]);
