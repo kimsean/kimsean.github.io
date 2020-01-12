@@ -115,8 +115,10 @@ export default class Home extends React.Component {
         <div className="container resized-container">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <div className="self-img">
-                <img src={img.self} alt=""/>
+              <div className="self-img-container">
+                <div className="self-img">
+                  <img src={img.self} alt=""/>
+                </div>
               </div>
               <div className="contact-list mt-2">
                 <label className="self-motto">"Don't just learn to code, Learn to create"</label>
@@ -160,7 +162,7 @@ export default class Home extends React.Component {
               <canvas id="chartGraph"></canvas>
             </div>
             <div className="col">
-              <div className="row">
+              <div className="row skill-row-container">
               {
                 this.state.data_skills.map((x, index) => {
                   return this.renderSkill(x.name,x.value,x.icon,x.iconHover,index,x.color)
