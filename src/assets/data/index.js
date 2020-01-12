@@ -328,11 +328,12 @@ let data = {
     },
     {
       name: 'Craveee',
+      site_url: 'https://kimsean.github.io/cravee/',
       description: 'A simple web application to find restaurants in Davao City by food category.',
       gif: craveeGif,
       icon: craveeIcon,
       project_type: 'Personal',
-      tags: ['ReactJS','Node','JSON','Google Maps'],
+      tags: ['ReactJS','Node','JSON','Google Maps', 'Create React App'],
       roles: [
         'Developed the application',
         'Used ReactJS as the main framework for the front end',
