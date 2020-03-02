@@ -156,7 +156,7 @@ export default class Home extends React.Component {
             <p className="pb-0 mb-0 school">HOLY CROSS OF DAVAO COLLEGE</p>
             <p className="pb-0 mb-0 year">2014-2015</p>
           </div>
-          <h6 className="mt-4">SKILLS</h6>
+          {/* <h6 className="mt-4">SKILLS</h6>
           <div className="row">
             <div className="col-lg-4">
               <canvas id="chartGraph"></canvas>
@@ -170,7 +170,7 @@ export default class Home extends React.Component {
               }
               </div>
             </div>
-          </div>
+          </div> */}
           <h6 className="mt-4">WORK HISTORY</h6>
           <div className="work-history-container">
             <ul>
