@@ -51,6 +51,11 @@ import btcIcon from '../img/projects/btc-icon.png'
 import ratingsvillGif from '../img/projects/ratingsville.gif'
 import ratingsvillIcon from '../img/projects/ratingsville-icon.png'
 
+import groomandbrew from '../img/projects/groomandbrew.png'
+import groomandbrewGif from '../img/projects/groomandbrew-gif.png'
+
+import sweeepm from '../img/projects/sweeep-m.png'
+
 let colorYellow = '#F2C94C'
 let colorBlue = '#56CCF2'
 let colorGreen = '#27AE60'
@@ -252,7 +257,25 @@ let data = {
       ]
     },
     {
-      name: 'BTC by Pistacia',
+      name: 'Sweeep Mobile',
+      description: 'Core developer on the mobile version of Sweeep',
+      gif: sweeepm,
+      icon: sweeepIcon,
+      project_type: 'Client',
+      tags: ['React Native','Android','Ios','Mobile Development', 'ReactJS'],
+      roles: [
+        'Used nativebase as the primary theme for the app',
+        'Created functional components and page',
+        'Added navigation using React-navigation v5',
+        'created Camera Function to capture invoices',
+        'created upload api',
+        'converted images into pdf',
+        'used axios for api request',
+        'react redux for state management'
+      ]
+    },
+    {
+      name: 'BTC System by Pistacia',
       description: 'BTC or Bona Trust Corporation, one of the core developers in this project. A web system for setting up a business in Malaysia',
       gif: btcGif,
       icon: btcIcon,
@@ -264,6 +287,43 @@ let data = {
         'used vue in the front end',
         'created a complicated multi components based on the design',
         'added dynamic data print function'
+      ]
+    },
+    {
+      name: 'Groom & Brew System',
+      description: 'Sole developer for a startup project. A system dedicated for local barbershops in Davao City.',
+      gif: groomandbrewGif,
+      icon: groomandbrew,
+      project_type: 'Client',
+      tags: ['Laravel 5','ReactJS','REST Api','Serializer', 'PHP', 'Webpack','Web System'],
+      site_url: 'https://dev.groomandbrew.com',
+      roles: [
+        'Setup the project',
+        'Created class based and functional ReactJS components',
+        'Implemented Pusher API for realtime booking',
+        'Created and coded the entire system',
+        'Organized personal task management for better development',
+        'Developed Point of Sales',
+        'Developed Profiling',
+        'Developed Roles and Routes dynamic access',
+        'Applied ChartJS for reports',
+        'Developed Inventory',
+        'Manage and maintenance of the system'
+      ]
+    },
+    {
+      name: 'Ratingsville',
+      description: 'A web site application wherein parents can check all the children daycare facilities around united states. I am one of the core developer of this system.',
+      gif: ratingsvillGif,
+      icon: ratingsvillIcon,
+      project_type: 'Client',
+      tags: ['MongoDB','Angular 1','NodeJS','Express JS'],
+      site_url: 'https://ratingsville.com/',
+      roles: [
+        'Created backend APIs',
+        'Created controllers for RESTful integration',
+        'Coded components on the admin dashboard',
+        'Created a function to export data to excel'
       ]
     },
     {
@@ -279,20 +339,6 @@ let data = {
         'jQueryUI for the draggable contents',
         'Applied a cropper library',
         'Developed the entire system'
-      ]
-    },
-    {
-      name: 'Ratingsville',
-      description: 'A web site application wherein parents can check all the children daycare facilities around united states. I am one of the core developer of this system.',
-      gif: ratingsvillGif,
-      icon: ratingsvillIcon,
-      project_type: 'Client',
-      tags: ['MongoDB','Angular 1','NodeJS','Express JS'],
-      roles: [
-        'Created backend APIs',
-        'Created controllers for RESTful integration',
-        'Coded components on the admin dashboard',
-        'Created a function to export data to excel'
       ]
     },
     {
