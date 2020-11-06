@@ -19,51 +19,51 @@ export default class Home extends React.Component {
       data_work_history: data.work_history,
       projects: data.projects
     }))
-    let ctx = document.getElementById('chartGraph')
-     new Chart(ctx, {
-        type: 'radar',
-        data: {
-          labels: [['TASK','MANAGEMENT'], ['LEARNING','ABILITY'], ['TEAM','PLAYER'],['POSITIVE','ATTITUDE'], ['ADAPT','ABILITY']],
-          datasets: [{
-              backgroundColor: "#56CCF2",
-              borderColor: "#56CCF2",
-              radius: 0,
-              borderWidth: 0,
-              pointRadius: 0,
-              pointBorderWidth: 0,
-              pointBackgroundColor: "orange",
-              pointBorderColor: "#56CCF2",
-              pointHoverRadius: 1,
-              data: [80, 77, 95, 85,75]
-          }]
-        },
-        options: {
-          tooltips: {enabled: false},
-          hover: {mode: null},
-          elements: {
-              point: {
-                  radius: 0
-              }
-          },
-          scale: {
-            ticks: {
-              beginAtZero: true,
-              min: 0,
-              max: 100,
-              display:false,
-              maxTicksLimit: 1
-            },
-            pointLabels: {
-              fontSize: 7,
-              // fontColor: "#EB5757",
-            },    
-          },
-          legend: {
-            display: false
-          },
-          maintainAspectRatio: false
-        }
-    });
+    // let ctx = document.getElementById('chartGraph')
+    //  new Chart(ctx, {
+    //     type: 'radar',
+    //     data: {
+    //       labels: [['TASK','MANAGEMENT'], ['LEARNING','ABILITY'], ['TEAM','PLAYER'],['POSITIVE','ATTITUDE'], ['ADAPT','ABILITY']],
+    //       datasets: [{
+    //           backgroundColor: "#56CCF2",
+    //           borderColor: "#56CCF2",
+    //           radius: 0,
+    //           borderWidth: 0,
+    //           pointRadius: 0,
+    //           pointBorderWidth: 0,
+    //           pointBackgroundColor: "orange",
+    //           pointBorderColor: "#56CCF2",
+    //           pointHoverRadius: 1,
+    //           data: [80, 77, 95, 85,75]
+    //       }]
+    //     },
+    //     options: {
+    //       tooltips: {enabled: false},
+    //       hover: {mode: null},
+    //       elements: {
+    //           point: {
+    //               radius: 0
+    //           }
+    //       },
+    //       scale: {
+    //         ticks: {
+    //           beginAtZero: true,
+    //           min: 0,
+    //           max: 100,
+    //           display:false,
+    //           maxTicksLimit: 1
+    //         },
+    //         pointLabels: {
+    //           fontSize: 7,
+    //           // fontColor: "#EB5757",
+    //         },    
+    //       },
+    //       legend: {
+    //         display: false
+    //       },
+    //       maintainAspectRatio: false
+    //     }
+    // });
   }
   renderSkill (skill_name,value,icon,iconhover,index,color) {
     return (
@@ -156,7 +156,7 @@ export default class Home extends React.Component {
             <p className="pb-0 mb-0 school">HOLY CROSS OF DAVAO COLLEGE</p>
             <p className="pb-0 mb-0 year">2014-2015</p>
           </div>
-          <h6 className="mt-4">SKILLS</h6>
+          {/* <h6 className="mt-4">SKILLS</h6>
           <div className="row">
             <div className="col-lg-4">
               <canvas id="chartGraph"></canvas>
@@ -170,7 +170,7 @@ export default class Home extends React.Component {
               }
               </div>
             </div>
-          </div>
+          </div> */}
           <h6 className="mt-4">WORK HISTORY</h6>
           <div className="work-history-container">
             <ul>
