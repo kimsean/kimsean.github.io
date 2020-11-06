@@ -238,42 +238,42 @@ let data = {
     }
   ],
   projects: [
-    {
-      name: 'Sweeep by Pistacia & AML',
-      description: 'One of the developers in this system. It is an automation of japanese invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
-      gif: sweeepGif,
-      icon: sweeepIcon,
-      project_type: 'Client',
-      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
-      site_url: 'https://sweeep.ai/',
-      roles: [
-        'Started the admin dashboard using vuetify components',
-        'Created front end user functionalities',
-        'Developed some of the backend apis',
-        'Used vue in the front end',
-        'created python api for exporting data into csv or excel',
-        'vuex to manipulate states in the entire project',
-        'added cookies and localstorage for caching and session'
-      ]
-    },
-    {
-      name: 'Sweeep Mobile',
-      description: 'Core developer on the mobile version of Sweeep',
-      gif: sweeepm,
-      icon: sweeepIcon,
-      project_type: 'Client',
-      tags: ['React Native','Android','Ios','Mobile Development', 'ReactJS'],
-      roles: [
-        'Used nativebase as the primary theme for the app',
-        'Created functional components and page',
-        'Added navigation using React-navigation v5',
-        'created Camera Function to capture invoices',
-        'created upload api',
-        'converted images into pdf',
-        'used axios for api request',
-        'react redux for state management'
-      ]
-    },
+    // {
+    //   name: 'Sweeep by Pistacia & AML',
+    //   description: 'One of the developers in this system. It is an automation of japanese invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
+    //   gif: sweeepGif,
+    //   icon: sweeepIcon,
+    //   project_type: 'Client',
+    //   tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
+    //   site_url: 'https://sweeep.ai/',
+    //   roles: [
+    //     'Started the admin dashboard using vuetify components',
+    //     'Created front end user functionalities',
+    //     'Developed some of the backend apis',
+    //     'Used vue in the front end',
+    //     'created python api for exporting data into csv or excel',
+    //     'vuex to manipulate states in the entire project',
+    //     'added cookies and localstorage for caching and session'
+    //   ]
+    // },
+    // {
+    //   name: 'Sweeep Mobile',
+    //   description: 'Core developer on the mobile version of Sweeep',
+    //   gif: sweeepm,
+    //   icon: sweeepIcon,
+    //   project_type: 'Client',
+    //   tags: ['React Native','Android','Ios','Mobile Development', 'ReactJS'],
+    //   roles: [
+    //     'Used nativebase as the primary theme for the app',
+    //     'Created functional components and page',
+    //     'Added navigation using React-navigation v5',
+    //     'created Camera Function to capture invoices',
+    //     'created upload api',
+    //     'converted images into pdf',
+    //     'used axios for api request',
+    //     'react redux for state management'
+    //   ]
+    // },
     {
       name: 'BTC System by Pistacia',
       description: 'BTC or Bona Trust Corporation, one of the core developers in this project. A web system for setting up a business in Malaysia',
