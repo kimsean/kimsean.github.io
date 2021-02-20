@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acd79ccfc8a2e1bf7bf1d8908281032b",
+    "revision": "83479e29c8f8404591cde4938ac01f02",
     "url": "/kimsean.github.io/index.html"
   },
   {
-    "revision": "0a3c03d8699ab77fb3d1",
+    "revision": "1b2c8fbae13a67b5854d",
     "url": "/kimsean.github.io/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "2bd935d1fcd403360cc6",
+    "revision": "8e58ca8cb466af7d00dd",
     "url": "/kimsean.github.io/static/css/main.1e7a30ca.chunk.css"
   },
   {
-    "revision": "0a3c03d8699ab77fb3d1",
-    "url": "/kimsean.github.io/static/js/2.630e0d40.chunk.js"
+    "revision": "1b2c8fbae13a67b5854d",
+    "url": "/kimsean.github.io/static/js/2.f80e7f05.chunk.js"
   },
   {
     "revision": "c13766e7ab00f3713c0e15e008f04703",
-    "url": "/kimsean.github.io/static/js/2.630e0d40.chunk.js.LICENSE"
+    "url": "/kimsean.github.io/static/js/2.f80e7f05.chunk.js.LICENSE"
   },
   {
-    "revision": "2bd935d1fcd403360cc6",
-    "url": "/kimsean.github.io/static/js/main.0790cc29.chunk.js"
+    "revision": "8e58ca8cb466af7d00dd",
+    "url": "/kimsean.github.io/static/js/main.34a2fd57.chunk.js"
   },
   {
     "revision": "bfbd7e9fccdd0b4b3ba2",
