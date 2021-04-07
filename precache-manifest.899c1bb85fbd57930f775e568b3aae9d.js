@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83479e29c8f8404591cde4938ac01f02",
+    "revision": "9fb8865d047dc803b7617bbe600817c6",
     "url": "/kimsean.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kimsean.github.io/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "8e58ca8cb466af7d00dd",
+    "revision": "fa8b82acec8ea27b95dd",
     "url": "/kimsean.github.io/static/css/main.1e7a30ca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kimsean.github.io/static/js/2.f80e7f05.chunk.js.LICENSE"
   },
   {
-    "revision": "8e58ca8cb466af7d00dd",
-    "url": "/kimsean.github.io/static/js/main.34a2fd57.chunk.js"
+    "revision": "fa8b82acec8ea27b95dd",
+    "url": "/kimsean.github.io/static/js/main.b031d63c.chunk.js"
   },
   {
     "revision": "bfbd7e9fccdd0b4b3ba2",
