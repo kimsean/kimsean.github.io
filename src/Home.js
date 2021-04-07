@@ -109,6 +109,17 @@ export default class Home extends React.Component {
       </div>
     )
   }
+  renderConfidential (confidential) {
+    return (
+      confidential ?
+      (
+        <div style={{fontSize: 10}}>
+          Confidential
+        </div>
+      ): null
+      
+    )
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -218,6 +229,9 @@ export default class Home extends React.Component {
                         {
                           this.renderUrlSite(val.site_url)
                         }
+                        {
+                          this.renderConfidential(val.confidential)
+                        }
                       </label>
                       <p className="project-description">
                       {val.description}
@@ -233,22 +247,16 @@ export default class Home extends React.Component {
                           }
                         </ul>
                       </div>
-                      <div className="project-item-continer">
-                        <div className="project-preview">
-                        <img src={val.gif} alt=""/>
-                        </div>
-                        <button className="view-project"><img src={img.eyeIcon} alt=""/> Preview</button>
-                      </div>
-                    <ul className="project-tag-list">
-                      {
-                        val.tags.map((x, index2) => {
-                          return(
-                            <li className="project-tag-item" key={index2}>{x}</li>
-                          )
-                        })
-                      }
-                    </ul>
-                  </div>
+                      <ul className="project-tag-list">
+                        {
+                          val.tags.map((x, index2) => {
+                            return(
+                              <li className="project-tag-item" key={index2}>{x}</li>
+                            )
+                          })
+                        }
+                      </ul>
+                    </div>
                 </div>
               )
             })
