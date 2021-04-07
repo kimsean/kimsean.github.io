@@ -2,7 +2,6 @@
   "name": "portfolio2020",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kimsean.github.io/kimsean.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "@testing-library/jest-dom": "^4.2.4",
