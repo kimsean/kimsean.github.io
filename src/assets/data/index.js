@@ -151,7 +151,7 @@ let data = {
           description: 'Head of the javascript front end team'
         }
       ]
-    },
+    }
   ],
   skills:[
     {
