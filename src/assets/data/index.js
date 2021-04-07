@@ -56,6 +56,8 @@ import groomandbrewGif from '../img/projects/groomandbrew-gif.png'
 
 import sweeepm from '../img/projects/sweeep-m.png'
 
+import noIcon from '../img/projects/no-icon.png'
+
 let colorYellow = '#F2C94C'
 let colorBlue = '#56CCF2'
 let colorGreen = '#27AE60'
@@ -136,6 +138,20 @@ let data = {
         }
       ]
     },
+    {
+      name: 'NEGOSAYO TECHNOLOGY',
+      jobDescription: 'JAVASCRIPT / MOBILE DEVELOPER',
+      time: 'Part Time',
+      year: '2020-Current',
+      jobPoints: [
+        {
+          description: 'Web/React native development of Delivery Application'
+        },
+        {
+          description: 'Head of the javascript front end team'
+        }
+      ]
+    }
   ],
   skills:[
     {
@@ -238,48 +254,76 @@ let data = {
     }
   ],
   projects: [
-    // {
-    //   name: 'Sweeep by Pistacia & AML',
-    //   description: 'One of the developers in this system. It is an automation of japanese invoice processing. Built with the collaboration of Filipinos (Pistacia) and Japanese (Automation Lab) Companies',
-    //   gif: sweeepGif,
-    //   icon: sweeepIcon,
-    //   project_type: 'Client',
-    //   tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
-    //   site_url: 'https://sweeep.ai/',
-    //   roles: [
-    //     'Started the admin dashboard using vuetify components',
-    //     'Created front end user functionalities',
-    //     'Developed some of the backend apis',
-    //     'Used vue in the front end',
-    //     'created python api for exporting data into csv or excel',
-    //     'vuex to manipulate states in the entire project',
-    //     'added cookies and localstorage for caching and session'
-    //   ]
-    // },
-    // {
-    //   name: 'Sweeep Mobile',
-    //   description: 'Core developer on the mobile version of Sweeep',
-    //   gif: sweeepm,
-    //   icon: sweeepIcon,
-    //   project_type: 'Client',
-    //   tags: ['React Native','Android','Ios','Mobile Development', 'ReactJS'],
-    //   roles: [
-    //     'Used nativebase as the primary theme for the app',
-    //     'Created functional components and page',
-    //     'Added navigation using React-navigation v5',
-    //     'created Camera Function to capture invoices',
-    //     'created upload api',
-    //     'converted images into pdf',
-    //     'used axios for api request',
-    //     'react redux for state management'
-    //   ]
-    // },
     {
-      name: 'BTC System by Pistacia',
-      description: 'BTC or Bona Trust Corporation, one of the core developers in this project. A web system for setting up a business in Malaysia',
-      gif: btcGif,
-      icon: btcIcon,
+      name: 'Food & Errand Delivery',
+      description: 'A food and errands delivery application, it is already expanding to different cities here in the philippines and is adding more services to cater in the near future',
+      icon: noIcon,
+      confidential: true,
       project_type: 'Client',
+      tags: ['React Native','React JS', 'Web System', 'Socket IO','Android','IOS'],
+      roles: [
+        'Developed the rider wobile version',
+        'Developed the rider web version',
+        'Developed the merchant mobile version',
+        'Developed the merchant web version',
+      ]
+    },
+    {
+      name: 'Weather App Mobile (日本語)',
+      description: 'A weather application that uses a device to gather information and AI to process its prediction. An application that is collaborated with Filipinos and Japanese developers',
+      icon: noIcon,
+      confidential: true,
+      project_type: 'Client',
+      tags: ['React Native','Javascript', 'AWS Amplify','Android','IOS'],
+      roles: [
+        'Created UI components that will match clients expectations',
+        'Implemented AWS Amplify',
+        'Simultaneously developed for both android & ios',
+        'Dynamic components in map view relatively to its weather datas'
+      ]
+    },
+    {
+      name: 'Accounting System (日本語)',
+      description: 'One of the developers in this system. It is an automation of japanese invoice processing. Built with the collaboration of Filipinos and Japanese Companies',
+      icon: noIcon,
+      confidential: true,
+      project_type: 'Client',
+      tags: ['Python','Django REST','REST Api','MySQL', 'VueJS', 'Webpack', 'Google Vision API', 'Web System'],
+      // site_url: 'https://sweeep.ai/',
+      roles: [
+        'Started the admin dashboard using vuetify components',
+        'Created front end user functionalities',
+        'Developed some of the backend apis',
+        'Used vue in the front end',
+        'created python api for exporting data into csv or excel',
+        'vuex to manipulate states in the entire project',
+        'added cookies and localstorage for caching and session'
+      ]
+    },
+    {
+      name: 'Accounting System Mobile Version(日本語)',
+      description: 'Mobile version of the japanese accounting system. Its primary use is to capture invoice in the mobile and upload it to the system',
+      icon: noIcon,
+      confidential: true,
+      project_type: 'Client',
+      tags: ['React Native','Android','Ios','Mobile Development', 'ReactJS'],
+      roles: [
+        'Used nativebase as the primary theme for the app',
+        'Created functional components and page',
+        'Added navigation using React-navigation v5',
+        'created Camera Function to capture invoices',
+        'created upload api',
+        'converted images into pdf',
+        'used axios for api request',
+        'react redux for state management'
+      ]
+    },
+    {
+      name: 'Business Registration',
+      description: 'One of the core developers in this project. A web system for setting up a business in Malaysia',
+      icon: noIcon,
+      project_type: 'Client',
+      confidential: true,
       tags: ['Python','Django REST','REST Api','VueJS', 'Webpack', 'Web System'],
       roles: [
         'Coded admin components functionalities',
@@ -292,9 +336,8 @@ let data = {
     {
       name: 'Groom & Brew System',
       description: 'Sole developer for a startup project. A system dedicated for local barbershops in Davao City.',
-      gif: groomandbrewGif,
       icon: groomandbrew,
-      project_type: 'Client',
+      project_type: 'Personal, Startup',
       tags: ['Laravel 5','ReactJS','REST Api','Serializer', 'PHP', 'Webpack','Web System'],
       site_url: 'https://dev.groomandbrew.com',
       roles: [
@@ -314,7 +357,6 @@ let data = {
     {
       name: 'Ratingsville',
       description: 'A web site application wherein parents can check all the children daycare facilities around united states. I am one of the core developer of this system.',
-      gif: ratingsvillGif,
       icon: ratingsvillIcon,
       project_type: 'Client',
       tags: ['MongoDB','Angular 1','NodeJS','Express JS'],
@@ -329,7 +371,6 @@ let data = {
     {
       name: 'Manga Translation System',
       description: 'A simple web application system for manga translation. The system provides easier user interface in the translation process. From the translators to checkers then to proof readers. It enhances the speed and the quality of the project.',
-      gif: mangaGif,
       icon: mangaIcon,
       tags: ['VueJS','Webpack','Npm','Firebase','Javascript','Juery UI','JSON'],
       project_type: 'Personal',
@@ -344,7 +385,6 @@ let data = {
     {
       name: 'e-Locator',
       description: 'A website system and mobile application for 911 emergency responders. This system features a real time data of the responders and the callers.',
-      gif: emergencyGif,
       icon: emergencyIcon,
       project_type: 'Client',
       tags: ['AngularJS 1','Ionic','Firebase','Npm','Web System'],
@@ -360,7 +400,6 @@ let data = {
     {
       name: 'GoMati',
       description: 'A website application system that provides real time data reservation on hotels and beaches in the area of Mati. It uses geolocation to locate the nearest hotel and beached.',
-      gif: gomatiGif,
       icon: gomatiIcon,
       project_type: 'Client',
       tags: ['Ionic','AngularJS 1','Firebase','Npm','Web System','REST Api','Real Time','Mobile','PHP'],
@@ -376,7 +415,6 @@ let data = {
       name: 'Craveee',
       site_url: 'https://kimsean.github.io/cravee/',
       description: 'A simple web application to find restaurants in Davao City by food category.',
-      gif: craveeGif,
       icon: craveeIcon,
       project_type: 'Personal',
       tags: ['ReactJS','Node','JSON','Google Maps', 'Create React App'],
@@ -390,7 +428,6 @@ let data = {
     {
       name: 'Jam Davao',
       description: 'Band & Gigs directory for local events located in davao city.',
-      gif: jamdavaoGif,
       icon: jamdavaoIcon,
       project_type: 'Client',
       tags: ['Php','Bootstrap','REST Api','Mysql', 'Google Maps', 'Web System'],
