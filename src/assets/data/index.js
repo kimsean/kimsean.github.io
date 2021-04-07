@@ -145,16 +145,10 @@ let data = {
       year: '2020-Current',
       jobPoints: [
         {
-          description: 'Experienced two git repository for a single project'
+          description: 'Web/React native development of Delivery Application'
         },
         {
-          description: 'Developed a system using VueJS'
-        },
-        {
-          description: 'Learned and enhanced knowledge on Python and Django REST framework'
-        },
-        {
-          description: 'Practices better code reviews and project management'
+          description: 'Head of the javascript front end team'
         }
       ]
     },
