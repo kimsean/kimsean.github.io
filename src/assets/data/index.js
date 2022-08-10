@@ -426,7 +426,7 @@ let data = {
       ]
     },
     {
-      name: 'Jam Davao',
+      name: 'Jam it Davao',
       description: 'Band & Gigs directory for local events located in davao city.',
       icon: jamdavaoIcon,
       project_type: 'Client',
